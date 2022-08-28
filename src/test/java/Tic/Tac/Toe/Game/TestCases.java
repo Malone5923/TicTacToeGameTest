@@ -34,8 +34,6 @@ public class TestCases extends Base {
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-		
+		}		
 	}
-
 }

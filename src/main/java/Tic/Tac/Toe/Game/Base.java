@@ -56,15 +56,6 @@ public class Base {
 		return driver;
 	}
 
-//	public String getScreenShotPath(String testCaseName, WebDriver driver) throws IOException {
-//		TakesScreenshot ts = (TakesScreenshot) driver;
-//		File source = ts.getScreenshotAs(OutputType.FILE);
-//		String destinationFile = System.getProperty("user.dir") + "\\reports\\" + testCaseName + ".png";
-//		FileUtils.copyFile(source, new File(destinationFile));
-//		return destinationFile;
-//
-//	}
-
 	public WebDriver getDriver() {
 		return driver;
 	}
@@ -82,14 +73,5 @@ public class Base {
 			driver.quit();
 		}
 	}
-
-//	public int checkConnection(String url) throws MalformedURLException, IOException {
-//		HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
-//		conn.setRequestMethod("HEAD");
-//		conn.connect();
-//		int respCode = conn.getResponseCode();
-//		log.info("Response Code received: " + respCode);
-//		return respCode;
-//	}
 
 }
